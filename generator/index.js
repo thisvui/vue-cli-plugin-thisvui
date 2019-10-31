@@ -12,6 +12,15 @@ module.exports = (api, options) => {
   if (options.addStyle === 'css') {
     api.injectImports(api.entryFile, `import 'thisvui/dist/thisvui.min.css'`)
   } else if (options.addStyle === 'scss') {
+    // sass loader
+    api.extendPackage({
+      devDependencies: {
+        'node-sass': '^4.9.0',
+        'sass': '^1.19.0',
+        'sass-loader': '^8.0.0'
+      }
+    })
+
     api.render('./templates/style')
     api.injectImports(api.entryFile, `import '@/assets/scss/thisvui.scss'`)
   }
