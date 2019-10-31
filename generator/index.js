@@ -22,7 +22,7 @@ module.exports = (api, options) => {
     })
 
     api.render('./templates/style')
-    api.injectImports(api.entryFile, `import '@/assets/scss/thisvui.scss'`)
+    api.injectImports(api.entryFile, `import 'thisvui/dist/sass/thisvui.scss'`)
   }
 
   api.onCreateComplete(() => {
