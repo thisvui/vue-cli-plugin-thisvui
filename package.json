@@ -1,0 +1,22 @@
+{
+  "name": "vue-cli-plugin-thisvui",
+  "version": "0.0.1",
+  "description": "vue-cli plugin to add thisvui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisvui/vue-cli-plugin-thisvui.git"
+  },
+  "keywords": [
+    "thisvui"
+  ],
+  "author": "Musa Sutisna <mus4.sutisn4@gmail.com> (https://github.com/mu545)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thisvui/vue-cli-plugin-thisvui/issues"
+  },
+  "homepage": "https://github.com/thisvui/vue-cli-plugin-thisvui#readme"
+}
